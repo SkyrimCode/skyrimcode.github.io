@@ -14,8 +14,11 @@ $(document).ready(function() {
     });
 
     $('.owl-carousel').owlCarousel({
-        loop:false,
+        loop:true,
         items: 4,
+        autoplay:true,
+        autoplayTimeout:4000,
+        autoplayHoverPause:true,
         responsive:{
             0:{
                 items:1
@@ -59,6 +62,32 @@ $(document).ready(function() {
             });
             countupfinished=true;
         }
+    });
+    $("[data-fancybox]").fancybox();
+
+    $(".items").isotope({
+        filter: '*',
+        animationOptions: {
+            duration: 1500,
+            easing: 'linear',
+            queue: false
+        }
+    });
+    $("#filters a").click(function(){
+        $("#filters .current").removeClass("current");
+        $(this).addClass("current");
+        var selector=$(this).attr("data-filter");
+
+        $(".items").isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 1500,
+                    easing: 'linear',
+                    queue: false
+            }
+        });
+
+        return false;
     });
     
 });
