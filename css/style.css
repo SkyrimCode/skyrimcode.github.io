@@ -168,6 +168,13 @@ body{
     text-decoration: none;
 
 }
+.filter ul {
+    display: inline-block;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+  }
+  
 .filter li{
     display: inline-block;
     padding: 5px;
