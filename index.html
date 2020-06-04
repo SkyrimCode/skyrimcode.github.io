@@ -37,6 +37,35 @@
             </nav>
          
         </div>
+
+        <nav id="navigation" class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse justify-content-center navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#slides"><span class="fa fa-home fa-lg"></span> Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about" style="margin-left: 3px;"><span class="fa fa-info fa-lg"></span>  About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#skills"><span class="fa fa-laptop fa-lg"></span> Skills</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#stats"><span class="fa fa-signal fa-lg"></span> Stats</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#portfolio"><span class="fa fa-male fa-lg"></span> Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+
         <div id="about" class="section">
             <div class="container">
                 <div class="row">
@@ -179,18 +208,10 @@
                 </div>
             </div>
         </div>
-        <div id="contact" class="contactSection section">
-            <div class="col-md-12 text-center">
-                <p class="subHeading">Like what you see?</p>
-                <h2>I'd love to hear from you</h2>
-                <a href="mailTo:rsaha734@gmail.com" class="contactButton">GET IN TOUCH</a>
-            </div>
-        </div>
-
         <div id="portfolio" class="section">
             <div class="container">
                 <div class="row">
-                   <div class="heading">
+                   <div class="heading portfolioheading">
                        <h2>PORTFOLIO</h2>
                    </div>
                    <div class="filter">
@@ -198,7 +219,6 @@
                            <li><a href="#" data-filter="*" class="current">ALL</a></li>
                            <li><a href="#" data-filter=".certifications">CERTIFICATIONS</a></li>
                            <li><a href="#" data-filter=".projects">PROJECTS</a></li>
-                           <li><a href="#" data-filter=".education">EDUCATION</a></li>
                            <li><a href="#" data-filter=".me">ME</a></li>
                        </ul>
                    </div>
@@ -392,39 +412,6 @@
                                         <div class="imageOverlay"></div>
                                     </div>
                             </li>
-                            <li onclick="" class="education col-6 col-sm-4 col-md-3 col-lg-3">
-                                    <div class="item">
-                                        <img src="img/portfolio/thumbnails/nes.jpg">
-                                        <div class="icons" style="padding-left:10%;">
-                                            <a href="img/portfolio/thumbnails/nes.jpg" title="View Image" class="openButton" data-fancybox data-caption="Completed my Elementary schooling from National English School">
-                                                <i class="fa fa-eye" style="position: relative;"></i>
-                                            </a>
-                                        </div>
-                                        <div class="imageOverlay"></div>
-                                    </div>
-                               </li>
-                               <li onclick="" class="education col-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="img/portfolio/thumbnails/bgkv.jpg">
-                                    <div class="icons" style="padding-left: 10%;">
-                                        <a href="img/portfolio/thumbnails/bgkv.jpg" title="View Image" class="openButton" data-fancybox data-caption="Finished my high school from BGKV,Salt Lake">
-                                            <i class="fa fa-eye" style="position: relative;"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imageOverlay"></div>
-                                </div>
-                           </li>
-                           <li onclick="" class="education col-6 col-sm-4 col-md-3 col-lg-3">
-                                <div class="item">
-                                    <img src="img/portfolio/thumbnails/bppimt.png">
-                                    <div class="icons" style="padding-left: 10%;">
-                                        <a href="img/portfolio/thumbnails/bppimt.png" title="View Image" class="openButton" data-fancybox data-caption="Pursuing B.Tech in Computer Science & Engineering from B.P. Poddar Institute of Management & Technology">
-                                            <i class="fa fa-eye" style="position: relative;"></i>
-                                        </a>
-                                    </div>
-                                    <div class="imageOverlay"></div>
-                                </div>
-                           </li>
                            <li onclick="" class="me col-6 col-sm-4 col-md-3 col-lg-3">
                                 <div class="item">
                                     <img src="img/portfolio/thumbnails/DP.jpeg">
@@ -473,6 +460,28 @@
                        </ul>
                    </div>
                 </div>
+            </div>
+        </div>
+        <div id="contact" class="contactSection section">
+                <div class="col-md-12 text-center">
+                    <p class="subHeading">Interested to know more?</p>
+                    <h2>I'd love to hear from you</h2>
+                    <a href="mailTo:rsaha734@gmail.com" class="contactButton">GET IN TOUCH</a>
+                </div>
+                <div class="links">
+                        <a href="https://www.facebook.com/Luciferhacker" class="fb" target="_blank" rel="noopener"><i class="fa fa-facebook fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/rajdeep-saha/" class="lk" target="_blank" rel="noopener"><i class="fa fa-linkedin fa-2x"></i></a>
+                        <a href="https://github.com/SkyrimCode" class="gh" target="_blank" rel="noopener"><i class="fa fa-github fa-2x"></i></a>
+                        
+                </div>
+        </div>
+        <div class="copyrightSection">
+                <div class="dev col-md-12 text-center">
+                        <p class="Sign">Coded with &hearts; by <a href="https://github.com/SkyrimCode" class="gh" target="_blank" rel="noopener">Rajdeep Saha</a></p>
+                    </div>
+            <div class="col-md-12 text-center">
+                <p>&copy; Copyright Rajdeep Saha 2020.</p>
+                <p>All rights reserved.</p>
             </div>
         </div>
 
