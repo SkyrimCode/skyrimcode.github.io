@@ -21,7 +21,7 @@ $(document).ready(function() {
     });
 
     var typed=new Typed(".typed",{
-        strings: ["Student", "Software Developer", "Competitive Coder", "Full Stack Developer"],
+        strings: [ "Software Developer", "Competitive Coder", "Bibliophile", "Full Stack Developer"],
         typeSpeed: 70,
         loop: true,
         startDelay:1000,
